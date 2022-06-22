@@ -1,4 +1,4 @@
-const mongoose = reqyure('mongoose')
+const mongoose = require('mongoose')
 
 const UserSchema = new mongoose.Schema({
     name: {
@@ -15,7 +15,7 @@ const UserSchema = new mongoose.Schema({
         }
 
     }, {
-        timestamps:true 
+        timestamps: true 
     
     
 })
